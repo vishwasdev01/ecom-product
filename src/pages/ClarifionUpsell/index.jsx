@@ -97,21 +97,21 @@ const ClarifionUpsellPage = () => {
           </div>
           <div className="flex flex-col gap-6 items-center justify-start mt-0 mx-auto w-auto z-[1] sm:mt-[0px] sm:mx-[40px] sm:pt-[32px]">
             <Text
-              className="sm:leading-10 capitalize text-5xl sm:text-[38px] md:text-[44px] text-black-900 w-auto sm:text-center"
+              className="sm:leading-10 capitalize text-5xl sm:text-[38px] md:text-[44px] text-black-900 w-auto md:text-center"
               size="txtManropeRegular48"
             >
               Wait ! your order in progress.
             </Text>
             <Text
-              className="capitalize text-2xl md:text-[22px] text-blue_gray-700 sm:text-xl w-auto sm:text-center"
+              className="capitalize text-2xl md:text-[22px] text-blue_gray-700 sm:text-xl w-auto md:text-center"
               size="txtManropeRegular24"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing{" "}
             </Text>
           </div>
         </div>
-        <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between md:px-10 sm:px-5 px-[127px] mt-[60px] mx-auto md:px-5 w-full sm:flex-row sm:items-baseline">
-          <div className="flex flex-row gap-5 items-center justify-start w-auto sm:flex-col  sm:gap-2">
+        <div className="flex  flex-row md:gap-10 items-center justify-between md:px-10 sm:px-5 px-[127px] mt-[60px] md:mt-[20px] mx-auto md:px-5 w-full md:flex-row md:items-baseline">
+          <div className="flex flex-row gap-5 items-center justify-start w-auto md:flex-col md:gap-2">
             <Button className="border-2 border-light_green-500 border-solid flex h-10 items-center justify-center w-10">
               <Img
                 className="h-4"
@@ -120,14 +120,14 @@ const ClarifionUpsellPage = () => {
               />
             </Button>
             <Text
-              className="capitalize text-black-900 text-xl w-auto flex sm:text-xs sm:leading-0 sm:text-center"
+              className="capitalize text-black-900 text-xl w-auto flex md:text-xs md:leading-0 md:text-center"
               size="txtManropeRegular20"
             >
-              <span className="block sm:hidden"> Step 1 : </span>
+              <span className="block md:hidden"> Step 1 : </span>
               Cart Review
             </Text>
           </div>
-          <div className="flex flex-row gap-5 items-center justify-start w-auto sm:flex-col  sm:gap-2">
+          <div className="flex flex-row gap-5 items-center justify-start w-auto md:flex-col md:gap-2">
             <Button className="border-2 border-light_green-500 border-solid flex h-10 items-center justify-center w-10">
               <Img
                 className="h-4"
@@ -136,14 +136,14 @@ const ClarifionUpsellPage = () => {
               />
             </Button>
             <Text
-              className="capitalize text-black-900 text-xl w-auto flex sm:text-xs sm:leading-0 sm:text-center"
+              className="capitalize text-black-900 text-xl w-auto flex md:text-xs md:leading-0 md:text-center"
               size="txtManropeRegular20"
             >
               <span className="block sm:hidden"> Step 2 : </span>
               Checkout
             </Text>
           </div>
-          <div className="flex flex-row gap-5 items-center justify-start w-auto sm:flex-col  sm:gap-2">
+          <div className="flex flex-row gap-5 items-center justify-start w-auto md:flex-col md:gap-2">
             <Text
               className="bg-blue-A400 border-2 border-blue-A400 border-solid capitalize flex h-10 items-center justify-center rounded-[50%] text-center text-white-A700 text-xl w-10"
               size="txtManropeRegular20WhiteA700"
@@ -151,14 +151,14 @@ const ClarifionUpsellPage = () => {
               3
             </Text>
             <Text
-              className="capitalize text-black-900 text-xl w-auto flex sm:text-xs sm:leading-0 sm:text-center"
+              className="capitalize text-black-900 text-xl w-auto flex md:text-xs md:leading-0 md:text-center"
               size="txtManropeBold20"
             >
               <span className="block sm:hidden"> Step 3 : </span>
               Special Offer
             </Text>
           </div>
-          <div className="flex flex-row gap-5 items-center justify-start w-auto sm:flex-col  sm:gap-2">
+          <div className="flex flex-row gap-5 items-center justify-start w-auto md:flex-col md:gap-2">
             <Text
               className="border-2 border-blue-A400 border-solid capitalize flex h-10 items-center justify-center rounded-[50%] text-blue-A400 text-center text-xl w-10"
               size="txtManropeRegular20BlueA400"
@@ -166,7 +166,7 @@ const ClarifionUpsellPage = () => {
               4
             </Text>
             <Text
-              className="capitalize text-black-900 text-xl w-auto flex sm:text-xs sm:leading-0 sm:text-center"
+              className="capitalize text-black-900 text-xl w-auto flex md:text-xs md:leading-0 md:text-center"
               size="txtManropeRegular20"
             >
               <span className="block sm:hidden"> Step 4 : </span>
@@ -174,8 +174,8 @@ const ClarifionUpsellPage = () => {
             </Text>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-start md:px-10 sm:px-5 px-[127px] mt-[80px] mx-auto mt-10 mx-auto rounded-[10px] w-full">
-          <div className="flex md:flex-col flex-row items-start w-full px-[40px] gap-10	sm:gap-6 sm:flex-col-reverse sm:px-[0px]">
+        <div className="flex flex-col items-center justify-start md:px-5 sm:px-5 px-[127px] mt-[80px] md:mt-[40px] mx-auto mt-10 mx-auto rounded-[10px] w-full">
+          <div className="flex md:flex-col flex-row items-start w-full px-[40px] gap-10	sm:gap-6 sm:flex-col-reverse md:px-[0px]">
             <div className="flex md:flex-1 flex-col gap-6 items-center justify-start w-1/2 md:w-full">
               <Img
                 className=" sm:h-auto rounded-[10px] w-full h-[610px] sm:hidden md:h-[100%]"
